@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <title class="site-title"></title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <nav>
+        <div class="logo">
+          <h4 class="title"></h4>
+          <h5 class="subtitle"></h5>
+        </div>
+        <ul class="nav-links">
+          <li><a href="/">HOME</a></li>
+          <li><a href="/writing">WRITING</a></li>
+          <li><a href="/podcasting">PODCASTING</a></li>
+          <li><a href="/music">MUSIC</a></li>
+          <li>
+            <a href="https://github.com/pravda23" target="_blank">CODING</a>
+          </li>
+          <li><a href="/contact">CONTACT</a></li>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+
+      <!-- ROCK PAPER SCISSORS START -->
+
+      <main>
+        <div class="main">
+        <h1>Web developement</h1><br>
+        <div>I do front-end development with HTML, CSS and Javascript. Check out some of my work on <a href="https://github.com/pravda23/" target="_blank">Github</a>. Or play my version of Rock Paper Scissors.</div><br>
+        <div class="rps-main">
+          <div class="outer">
+            <div class="button-container">
+                PLAY ROCK PAPER SCISSORS
+            </div>
+            
+            <div class="playbuttonsbox">
+                <div id="p1_playbuttons" class="p1_playbuttons">
+                    <button class="p1_rpstitle" id="human">PLAYER 1<div class="p1_score"><br></div>
+                            </button>
+                    <div class="onlybtn">
+                        <button class="p1_rpsbutton" id="0">ROCK</button>
+                        <button class="p1_rpsbutton" id="1">PAPER</button>
+                        <button class="p1_rpsbutton" id="2">SCISSORS</button>
+                    </div>
+                </div>
+                <div id="p2_playbuttons" class="p2_playbuttons">
+                    <button class="p2_rpstitle" id="computer">COMPUTER<br><div class="p2_score"><br></div></button>
+                    <div class="onlybtn">
+                        <button class="p2_rpsbutton" id="p2_rock">ROCK</button>
+                        <button class="p2_rpsbutton" id="p2_paper">PAPER</button>
+                        <button class="p2_rpsbutton" id="p2_scissors">SCISSORS</button>
+                    </div>
+                </div>
+            </div>
+            <div id="result_statement" class="results-text-box">&nbsp;</div>
+            <button id="reset" class="reset">RESET</button>
+        </div>
+        </script>
+        <script type="text/javascript " src="rps.js "></script>
+      </div>
+      </main>
+
+      <!-- ROCK PAPER SCISSORS END -->
+
+      <script src="app.js"></script>
+    </div>
+  </body>
+</html>
