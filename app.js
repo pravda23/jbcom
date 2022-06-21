@@ -4,11 +4,11 @@ const navSlide = () => {
   const burger = document.querySelector(".burger");
   const nav = document.querySelector(".nav-links");
   const navLinks = document.querySelectorAll(".nav-links li");
-  //   const ulNavLinks = document.querySelectorAll(".nav-links ul ");
 
-  //   ulNavLinks.style.display = "none";
+  nav.classList.remove("nav-active");
+  console.log(nav.classList);
   burger.addEventListener("click", () => {
-    // console.log(nav.classList);
+    console.log(nav.classList);
     // toggle nav
     nav.classList.toggle("nav-active");
 
