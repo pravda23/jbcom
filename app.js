@@ -1,41 +1,42 @@
-// navigation slider effect
+const burger = document.querySelector(".burger");
+const nav = document.querySelector(".nav-links");
+const navLinks = document.querySelector(".nav-links");
+const navLinksList = document.querySelector(".nav-links li");
 
+// side menu slider function
 const navSlide = () => {
-  const burger = document.querySelector(".burger");
-  const nav = document.querySelector(".nav-links");
-  const navLinks = document.querySelectorAll(".nav-links li");
+  document.addEventListener("DOMContentLoaded", () => {
+    fetch("links.json")
+      .then((response) => response.json())
+      .then((data) => {
+        // retrieves values of items as <li>HTML</li> array
+        const navData = Object.values(data);
 
-  nav.classList.remove("nav-active");
-  console.log(nav.classList);
+        // inserts menuItems into all elements with class .nav-links
+        nav.innerHTML = "";
+        navData.forEach((e) => {
+          let result = e.replace("<li>", `<li class="navLinks navAnim">`);
+          // dynamically generates nav links
+          nav.innerHTML += result;
+          console.log(result);
+        });
+      });
+  });
+  // burger animation
   burger.addEventListener("click", () => {
-    console.log(nav.classList);
-    // toggle nav
-    nav.classList.toggle("nav-active");
-
-    // animate links
-    navLinks.forEach((link, index) => {
-      if (link.style.animation) {
-        link.style.animation = "";
-      } else {
-        link.style.animation = `navLinkFade .3s ease forwards ${
-          index / 7 + 0.1
-        }s`;
-      }
-    });
-
-    // burger animation
     burger.classList.toggle("toggle");
+    nav.classList.toggle("nav-active");
   });
 };
 
-navSlide();
-
-// dynamic content
-
+// dynamically generates page title & subtitle
 fetch("header.json")
   .then((response) => response.json())
   .then((data) => {
+    // loads site title & subtitle
     document.querySelector(".title").innerHTML = data.title;
     document.querySelector(".subtitle").innerHTML = data.subtitle;
     document.querySelector(".site-title").innerText = data.siteTitle;
   });
+
+navSlide();
