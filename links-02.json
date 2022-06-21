@@ -1,0 +1,8 @@
+{
+  "home": "<li><a href=\"/\">HOME</a></li>",
+  "writing": "<li><a href=\"/writing\">WRITING</a></li>",
+  "podcasting": "<li><a href=\"/podcasting\">PODCASTING</a></li>",
+  "music": "<li><a href=\"/music\">MUSIC</a></li>",
+  "coding": "<li><a href=\"/coding\">CODING</a></li>",
+  "contact": "<li><a href=\"/contact\">CONTACT</a></li>"
+}
