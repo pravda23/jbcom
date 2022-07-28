@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <title class="site-title"></title>
+  </head>
+
+  <body>
+    <nav>
+      <div class="logo">
+        <h4 class="title"></h4>
+        <h5 class="subtitle"></h5>
+      </div>
+      <ul class="nav-links">
+        <li><a href="/index">HOME</a></li>
+        <li><a href="/writing">WRITING</a></li>
+        <li><a href="/podcasting">PODCASTING</a></li>
+        <li><a href="/music">MUSIC</a></li>
+        <li>
+          <a href="https://github.com/pravda23" target="_blank">CODING</a>
+        </li>
+        <li><a href="/contact">CONTACT</a></li>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+    <main>
+      <div class="main">
+        <h2>
+          Hey! View the chart below and
+          <a href="https://johnbartmann.com/ratecard.pdf">the ratecard</a> for
+          more details on how to download and use my music.
+          <a href="/sign-up">Sign up </a>for the monthly new (free) music email.
+          <a href="/contact">Contact me</a> with any questions.
+        </h2>
+        <a
+          href="https://johnbartmann.com/wp-content/uploads/2021/05/John-Bartmann-Music-Rates-Public-Google-Sheets-5-21-2021-3-31-52-PM.png"
+          target="_blank"
+          rel="noopener"
+          ><img
+            class="aligncenter wp-image-5314 size-full"
+            src="https://johnbartmann.com/wp-content/uploads/2021/05/John-Bartmann-Music-Rates-Public-Google-Sheets-5-21-2021-3-31-52-PM.png"
+            alt=""
+            width="1492"
+            height="739"
+        /></a>
+
+        <hr />
+
+        <h1>GENERAL</h1>
+
+        <h4>
+          <strong
+            >If I use your music, will I get flagged for copyright on YouTube or
+            elsewhere?</strong
+          >
+        </h4>
+        Nope! The music isn't registered for mechanical collection anywhere. If
+        you do get flagged, someone other than me has registered the music as
+        their own. Bad person. Please let me know if you find a bad person.
+        <h4>
+          <strong
+            >Can I use your music for free in my gaming video, animation, promo
+            video, podcast...etc?</strong
+          >
+        </h4>
+        Short answer: probably. View the above chart to double-check. The music
+        is all <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY</a>.
+        If it says 'ONLY WITH CREDIT', then you have to add this link to the
+        description of your video or podcast: Music by John Bartmann
+        <a href="https://johnbartmann.com/">https://johnbartmann.com/</a>
+        <h4>
+          <strong
+            >Can I use your music in a branded video on YouTube, TikTok,
+            Instagram, Facebook etc?</strong
+          >
+        </h4>
+        Yes. Check the chart above for usage scenarios.
+        <h4>
+          <strong
+            >Do I need to ask permission to use your music in my commercial
+            projects?</strong
+          >
+        </h4>
+        No. But you have credit me. If you can't credit me, purchase a license.
+        View the chart above. Here's a <a href="/ratecard.pdf">ratecard</a> for
+        all usage scenarios.
+        <h4><strong>What is the license type of your music?</strong></h4>
+        <a href="https://creativecommons.org/licenses/by/4.0/"
+          >Creative Commons CC-BY</a
+        > license. <a href="/contact">Get in touch</a> if you're unsure about
+        what that means.
+        <h4>
+          <strong>Do you own the rights to reproduce this music? </strong>
+        </h4>
+        Yes. I've done some Christmas stuff, but other than that, I am the 100%
+        sound recording and compositional rights holder. everything else was
+        either written and recorded by me or someone I've hired.
+        <h4><strong>Can I monetize my YouTube videos?</strong></h4>
+        Yes.
+        <h4><strong>Can I resell your music?</strong></h4>
+        No. It's terrible karma. All tracks have their own ISRC numbers (digital
+        fingerprints), so I am able to prove that I'm the original author.
+
+        <hr />
+
+        <h1>CREDITING &amp; DOWNLOADS</h1>
+
+        <h4>
+          <strong>If I want to credit you, how exactly do I do it?</strong>
+        </h4>
+        Add this to your project or episode description: Music by John Bartmann
+        <a href="https://johnbartmann.com/">https://johnbartmann.com/</a>
+        <h4>
+          <strong>Do I need to credit you if I purchase the music?</strong>
+        </h4>
+        If you pay, no.
+        <h4>
+          <strong>How do I download MIDI, sheet music or MusicXML?</strong>
+        </h4>
+        <a href="/contact">Contact me</a> directly for any of the above.
+        <h4><strong>Am I able to re-use the music multiple times?</strong></h4>
+        Yes. For example, you may use a track as theme music for every episode
+        of your podcast, like
+        <a
+          href="https://johnbartmann.com/blog/the-conversation-africa-podcast-music-placement/"
+          >these awesome people</a
+        > do.
+        <h4>
+          <strong
+            >Can I please have a written license documentation with my
+            purchase?</strong
+          >
+        </h4>
+        Most people don't need a written license anymore. But if you do,
+        <a href="/contact">contact me.</a>
+        <h4>
+          <strong
+            >Am I able to specify a license holder other than myself?</strong
+          >
+        </h4>
+        Yes.
+        <h4>
+          <strong
+            >Can you compose new music specifically for my project?</strong
+          >
+        </h4>
+        I'd love to! <a href="/contact">Contact me</a> with a proposal to write
+        some original music.
+        <h4>
+          <strong>How much do you charge to write original music?</strong>
+        </h4>
+        I generally charge according to how urgently you need the composition.
+        <a href="/contact">Contact me</a> and let's chat. I promise I won't
+        bankrupt you.
+        <h4>
+          <strong
+            >Can I submit my own music to be published on your site?</strong
+          >
+        </h4>
+        Nope, sorry. But there are loads of
+        <a
+          href="https://www.google.co.za/search?num=20&amp;rlz=1C1EJFA_enZA788ZA790&amp;ei=P9APW6faOoW80PEPjc274A4&amp;q=production+music+library&amp;oq=production+music+library&amp;gs_l=psy-ab.3..0i20i263k1l2j0l3j0i67k1j0l2.13875.16431.0.16587.24.10.0.3.3.0.427.1151.2-3j0j1.4.0....0...1c.1.64.psy-ab..17.7.1160...35i39k1.0.DdjvPBJfVkA"
+          target="_blank"
+          rel="noopener noreferrer"
+          >other sites</a
+        >
+        where you can.
+
+        <hr />
+
+        <h1>PAYMENT AND TECHNICAL</h1>
+
+        <h4><strong>How do I pay you or buy something from you?</strong></h4>
+        1. By purchasing the track/product/asset pack via
+        <a href="https://gumroad.com/johnbartmann">Gumroad</a> (using PayPal or
+        credit card). You will then have direct access to the files. 2. By
+        paying me directly via
+        <a href="https://paypal.me/johnbartmann">PayPal</a>. You will then need
+        to request that I send you the files.
+        <h4>
+          <strong>Am I able to download music on an iPad or iPhone?</strong>
+        </h4>
+        No, you'll need to use a desktop computer, laptop or Android device.
+
+        <hr />
+
+        <h1>USAGE RESTRICTIONS</h1>
+
+        <h4>
+          <strong
+            >Can I use your music in my commercial or promotional
+            production?</strong
+          >
+        </h4>
+        Sure, <a href="/ratecard.pdf">here's the ratecard</a>.
+        <h4>
+          <strong>Can I release your music as part of my own song?</strong>
+        </h4>
+        You need my permission, but I'm open to it.
+        <a href="/contact">Contact me</a>.
+        <h4><strong>Can I edit your music in my production?</strong></h4>
+        Yes. You can cut, loop, and use additional effects on any of the
+        downloaded tracks in your production. For example, you might want to
+        loop a track to fit the length of your video or podcast segment.
+
+        <hr />
+
+        <h1>OTHER</h1>
+
+        <h4><strong>I have a question you didn't answer here</strong></h4>
+        OK, <a href="/contact">contact me</a> directly.
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
