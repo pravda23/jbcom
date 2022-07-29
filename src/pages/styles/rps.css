@@ -1,0 +1,125 @@
+.rps-main {
+  /* background-color: var(--rps-color2); */
+  font-family: "Consolas", "Courier";
+  color: var(--rps-color2);
+  font-size: 1.6em;
+}
+
+.outer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  /* background-color: var(--rps-color2); */
+  /* margin: 1%; */
+  /* padding: 1%; */
+}
+
+.button-container {
+  display: inherit;
+  justify-content: center;
+  font-weight: bold;
+  padding: 5%;
+  padding-bottom: 0px;
+  background-color: var(--rps-color1);
+}
+
+.button {
+  padding: 0.5em;
+  font-size: 1.2em;
+}
+
+.playbuttonsbox {
+  display: inherit;
+  justify-content: space-evenly;
+  align-items: baseline;
+  padding: 2%;
+  padding-top: 0px;
+  scroll-padding-bottom: 0px;
+  background-color: var(--rps-color1);
+}
+
+.p1_rpstitle,
+.p2_rpstitle,
+.p1_score,
+.p2_score {
+  border: none;
+  color: inherit;
+  background-color: var(--rps-color1);
+  font-family: inherit;
+  font-size: inherit;
+  width: 100%;
+}
+
+.p1_score,
+.p2_score {
+  font-size: 2em;
+  padding: 5%;
+}
+
+.p1_playbuttons,
+.p2_playbuttons {
+  display: inherit;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  padding: 5%;
+}
+
+/* .onlybtn: wrapper to prevent rps_title click functionality */
+
+.onlybtn {
+  padding: 0px;
+  margin: 0px;
+  width: auto;
+}
+
+.p2_playbuttons {
+  opacity: 50%;
+}
+
+.p1_rpsbutton {
+  border: 1px solid var(--rps-color2);
+  color: inherit;
+  background-color: var(--rps-color1);
+  font-family: inherit;
+  font-size: inherit;
+  width: 100%;
+}
+
+.p1_rpsbutton:hover {
+  color: var(--rps-color1);
+  background-color: var(--rps-color2);
+}
+
+.p2_rpsbutton {
+  border: 1px solid var(--rps-color2);
+  color: inherit;
+  background-color: var(--rps-color1);
+  font-family: inherit;
+  font-size: inherit;
+  width: 100%;
+}
+
+.results-text-box {
+  background-color: var(--rps-color3);
+  display: inherit;
+  padding: 2%;
+  justify-content: center;
+  border: 1px solid var(--rps-color1);
+}
+
+.reset {
+  border: 1px solid var(--rps-color1);
+  color: var(--rps-color1);
+  background-color: var(--rps-color2);
+  font-family: inherit;
+  font-size: inherit;
+  width: 100%;
+}
+
+.flash {
+  background-color: var(--rps-color1);
+  animation-name: flashing;
+  animation-duration: 0.2s;
+  animation-fill-mode: forwards;
+}
