@@ -66,57 +66,62 @@ ul {
 
 .topHeader {
   display: flex;
-}
-
-/* nav */
-
-nav {
-  display: flex;
-  justify-content: flex-end;
+  justify-content: right;
+  border: 1px solid red;
   align-items: center;
-  min-height: 8vh;
+  height: clamp(2rem, 10vh, 8rem);
   background-color: var(--color-dark);
   padding: 3vh;
   line-height: 3vh;
+  border: 1px solid yellow;
+  z-index: -52;
 }
 
 .logo {
   position: absolute;
   left: 10px;
   color: var(--color-light);
+  border: 1px solid dodgerblue;
+}
+/* nav */
+
+nav {
+  display: flex;
+  justify-content: flex-end;
 }
 
-.nav-links {
+.navLinksSide {
+  position: absolute;
+  top: 8rem;
+  left: 0rem;
+  height: 80vh;
+  width: 100%;
+  background-color: var(--color-dark);
   display: flex;
+  flex-direction: column;
+  align-items: flex-end;
   justify-content: space-around;
   color: var(--color-light);
-  padding: 6vh 0 6vh 0;
-  width: 60%;
-}
-
-.nav-links li {
+  padding: 1rem;
   list-style: none;
+  z-index: 50;
+  border: 1px solid green;
+  overflow: hidden;
+  /* opacity: 0.5; */
 }
 
-.nav-links a {
+.navLinksSide a {
   text-decoration: none;
 }
 
 .burger {
-  display: none;
   cursor: pointer;
+  border: 1px solid salmon;
+  color: var(--color-light);
+  z-index: 51;
 }
 
-.burger div {
-  background-color: var(--color-light);
-  width: 25px;
-  height: 3px;
-  margin: 5px;
-  border-radius: 3px;
-  transition: all 0.3s ease;
-}
-
-.nav-active {
+/* .nav-active {
   transform: translateX(0%);
   margin-top: 4vh;
   z-index: 10;
@@ -125,33 +130,21 @@ nav {
 .navAnim {
   animation-name: navLinkFade;
   animation-duration: 1s;
-}
-
-/* burger divs animation */
-
-.toggle .line1 {
-  transform: rotate(-45deg) translate(-5px, 6px);
-}
-
-.toggle .line2 {
-  opacity: 0;
-}
-
-.toggle .line3 {
-  transform: rotate(45deg) translate(-5px, -6px);
-}
+} */
 
 /* footer */
 
 .footer {
+  position: relative;
+  bottom: 0;
   color: var(--color-light);
   background-color: var(--color-dark);
-  padding: 2vw;
+  padding: 2rem;
   text-align: right;
 }
 
 /* media queries */
-
+/* 
 @media screen and (max-width: 760px) {
   body {
     overflow-x: hidden;
@@ -176,11 +169,11 @@ nav {
     display: block;
     cursor: pointer;
   }
-}
+} */
 
 /* animations */
 
-@keyframes navLinkFade {
+/* @keyframes navLinkFade {
   from {
     opacity: 0;
     transform: translateX(50px);
@@ -189,7 +182,7 @@ nav {
     opacity: 1;
     transform: translateX(0px);
   }
-}
+} */
 
 /* rps flashing */
 @keyframes flashing {
@@ -200,10 +193,4 @@ nav {
   100% {
     opacity: 1;
   }
-}
-
-/* development */
-
-.testbtn {
-  font-size: 12px;
 }
