@@ -6,7 +6,7 @@ import "../styles/global.css"
 export default function Navbar() {
   const [showMenu, setShowMenu] = useState([false])
   let menu
-  if (showMenu) {
+  if (!showMenu) {
     menu = (
       <div className="navLinksSide">
         <li>
@@ -16,13 +16,15 @@ export default function Navbar() {
           <a href="/writing">WRITING</a>
         </li>
         <li>
+          <a href="https://github.com/pravda23" target="_blank">
+            CODING
+          </a>
+        </li>
+        <li>
           <a href="/podcasting">PODCASTING</a>
         </li>
         <li>
           <a href="/music">MUSIC</a>
-        </li>
-        <li>
-          <a href="/coding">CODING</a>
         </li>
         <li>
           <a href="/contact">CONTACT</a>

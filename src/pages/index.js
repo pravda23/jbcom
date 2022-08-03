@@ -8,21 +8,27 @@ export default function Home() {
       <div className="wrapper">
         <main>
           <div className="main">
-            <h1>Go ahead. I'm listening.</h1>
+            <h1>Hello. Welcome to my creative work.</h1>
             <br />
             <h3>
-              People work with me to{" "}
-              <a href="/podcasting">tell better stories using audio</a>.
+              I work with teams producing{" "}
+              <a href="/podcasting">podcasts & audio</a>.
             </h3>
             <br />
             <h3>
-              I also <a href="/writing">write words</a> for those who need more
-              online attention.
+              I'm learning{" "}
+              <a href="https://github.com/pravda23" target="_blank">
+                front-end web dev
+              </a>{" "}
+              fast (React, mainly).
             </h3>
             <br />
             <h3>
-              But most of all, I love making{" "}
-              <a href="/music">music for people to use freely</a>.
+              My <a href="/writing">content writing</a> keeps blogs fresh.
+            </h3>
+            <br />
+            <h3>
+              People use my <a href="/music">music</a> in their productions.
             </h3>
             <br />
             <br />

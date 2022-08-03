@@ -10,12 +10,7 @@ export default function Music() {
           <div className="main">
             <h1>Music</h1>
             <br />
-            <h3>
-              I'm working real hard on bringing you a fancy web app for my
-              music. Until then, here's where you can check out 300+ songs and
-              sketches.
-            </h3>
-            <br />
+
             <h3>Creative Commons soundtracks and comedic themes</h3>
             <br />
             <ul>

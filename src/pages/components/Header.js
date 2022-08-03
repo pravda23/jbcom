@@ -7,8 +7,12 @@ export default function Header() {
     <>
       <div className="topHeader">
         <div className="logo">
-          <h4>JOHN BARTMANN</h4>
-          <h5>CONTENT CREATIVE // WEB DEV</h5>
+          <a href="/">
+            <h4>JOHN BARTMANN</h4>
+          </a>
+          <a href="/">
+            <h5>CONTENT CREATIVE // WEB DEV</h5>
+          </a>
         </div>
         <div>
           <Navbar />
