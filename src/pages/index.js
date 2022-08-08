@@ -12,7 +12,7 @@ export default function Home() {
             <br />
             <h3>
               I work with teams producing{" "}
-              <a href="/podcasting">podcasts & audio</a>.
+              <a href="/podcasting">podcasts & audio fictino</a>.
             </h3>
             <br />
             <h3>

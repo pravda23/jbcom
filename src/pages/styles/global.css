@@ -20,14 +20,14 @@
 
 body {
   background-color: var(--color-black);
-  line-height: clamp(15px, 4vh, 30px);
+  line-height: clamp(20px, 5vh, 30px);
 }
 
 a {
   color: var(--color-light);
   text-decoration-line: underline;
   text-decoration-style: dotted;
-  text-underline-offset: 0.5rem;
+  text-underline-offset: 0.4rem;
 }
 
 .main {
@@ -46,12 +46,12 @@ a {
 }
 
 .wrapper {
+  position: relative;
   width: 100%;
-  padding: 2rem;
+  padding: 0.5rem;
   height: auto;
   margin-bottom: clamp(10vh, 40px, 15vh);
   /* overflow: hidden; */
-  position: relative;
 }
 
 .wrapperHide {
