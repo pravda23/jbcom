@@ -16,11 +16,8 @@ export default function Home() {
             </h3>
             <br />
             <h3>
-              I'm learning{" "}
-              <a href="https://github.com/pravda23" target="_blank">
-                front-end web dev
-              </a>{" "}
-              fast (React, mainly).
+              I'm learning <a href="/coding">front-end web dev</a> fast (React,
+              mainly).
             </h3>
             <br />
             <h3>
