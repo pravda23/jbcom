@@ -10,7 +10,7 @@ export default function Coding() {
             <h1>Front-end web development</h1>
             <br />
             <h3>
-              Innovative, independent, creative web products. Here's my{" "}
+              A creative approach to web products. Here's my{" "}
               <a href="https://github.com/pravda23" target="_blank">
                 GitHub.
               </a>
