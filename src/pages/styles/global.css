@@ -140,15 +140,15 @@ nav {
 /* footer */
 
 .footer {
-  /* display: none; */
-  position: fixed;
-  bottom: 0px;
+  position: relative;
+  bottom: 0;
   width: 100%;
   height: clamp(10vh, 40px, 15vh);
   margin-top: auto;
+  margin-bottom: 0;
   color: var(--color-light);
   background-color: var(--color-dark);
-  padding: 2rem;
+  padding: 2rem 1rem 2rem 2rem;
   text-align: right;
 }
 

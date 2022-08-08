@@ -16,8 +16,8 @@ export default function Navbar() {
           <a href="/writing">WRITING</a>
         </li>
         <li>
-          <a href="https://github.com/pravda23" target="_blank">
-            CODING
+          <a href="/coding" target="_blank">
+            FRONT-END DEV
           </a>
         </li>
         <li>
