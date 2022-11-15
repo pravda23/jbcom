@@ -11,23 +11,10 @@ export default function Podcasting() {
             <h1>Podcasting</h1>
             <br />
             <h3>
-              Immersive audio production. Podcasts with rich sound design and
-              original cinematic music.
+              Immersive storytelling, rich sound design and original music.
             </h3>
             <br />
             <ul>
-              <li>
-                <a
-                  href="https://howimakemusic.com"
-                  target="_blank"
-                  rel="noopener"
-                >
-                  <strong>How I Make Music</strong>
-                </a>{" "}
-                is my baby. Production, music composition for non-fiction
-                podcast series
-              </li>
-              <br />
               <li>
                 <a
                   href="https://voicemap.me/tour/london/theatreland-tour-with-ian-mckellen"
@@ -36,26 +23,38 @@ export default function Podcasting() {
                 >
                   <strong>Theatreland</strong>
                 </a>{" "}
-                stars acclaimed actor Ian McKellen. It's a GPS audio tour by
-                VoiceMap. I occasionally work with them, and helped on this
-                high-profile tour.
+                is a GPS audio tour starring acclaimed actor Ian McKellen. I
+                occasionally work with{" "}
+                <a href="https://voicemap.me" target="_blank">
+                  VoiceMap
+                </a>
+                .
               </li>
               <br />
               <li>
-                I love working on{" "}
                 <a
-                  href="https://pod.link/lafresiaaudio"
+                  href="https://howimakemusic.com"
                   target="_blank"
                   rel="noopener"
                 >
-                  <strong>The LaFresian Chronicles</strong>
+                  <strong>How I Make Music</strong>
                 </a>{" "}
-                because it's where I get to focus on scoring music.
-                <strong />
+                is a non-fiction podcast series featuring immersively edited
+                interviews with audio drama music composers. I script, produce
+                and co-score the show.
               </li>
               <br />
+
               <li>
-                Jedi Ramalapa wrote and produced
+                The{" "}
+                <a href="https://za.boell.org/" target="_blank">
+                  Heinrich Boell Foundation
+                </a>{" "}
+                and journalist{" "}
+                <a href="https://jediramalapa.blog/" target="_blank">
+                  Jedi Ramalapa
+                </a>{" "}
+                produced
                 <strong /> 
                 <a
                   href="https://za.boell.org/en/2021/05/25/think-african"
@@ -64,21 +63,30 @@ export default function Podcasting() {
                 >
                   <strong>Think, African</strong>
                 </a>
-                , a podcast series of interviews with African thinkers. I
-                helped.
+                , a podcast series of interviews with African thinkers. I edited
+                the show audio.
               </li>
               <br />
 
               <li>
+                Journalist{" "}
+                <a href="https://tanyapampalone.com/" target="_blank">
+                  Tanya Pampalone
+                </a>{" "}
+                and{" "}
+                <a href="https://soundafrica.org/" target="_blank">
+                  Sound Africa
+                </a>{" "}
+                produced{" "}
                 <a
                   href="https://onenightinsnakepark.com/"
                   target="_blank"
                   rel="noopener"
                 >
                   <strong>One Night In Snake Park</strong>
-                </a>{" "}
-                was my first time working on an international podcast team. I
-                wrote a badass musical score and helped record the narrators.
+                </a>
+                . I assisted with wrote the musical score and helped with record
+                the narrators.
               </li>
               <br />
               <li>
@@ -93,10 +101,22 @@ export default function Podcasting() {
                 injustice. I've helped produce, edit and score these stories .
               </li>
               <br />
-
               <li>
-                And just because I'm not busy enough, I release weekly immersive
-                podcasting tutorials at{" "}
+                I love working on fantasy fiction podcast{" "}
+                <a
+                  href="https://pod.link/lafresiaaudio"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <strong>The LaFresian Chronicles</strong>.
+                </a>{" "}
+                I provide each episode of the show with an original musical
+                score.
+                <strong />
+              </li>
+              <br />
+              <li>
+                On Thursdays, I release podcasting guide posts at{" "}
                 <a
                   href="https://immersivepodcasting.com"
                   target="_blank"
@@ -120,7 +140,6 @@ export default function Podcasting() {
               <li>Adobe Audition</li>
               <li>Ableton Live</li>
               <li>Audacity</li>
-              <li>VCV Rack</li>
             </ul>
             <br /> AUDIO REPAIR
             <ul>

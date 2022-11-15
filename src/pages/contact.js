@@ -9,7 +9,7 @@ export default function Contact() {
           <div className="main">
             <h1>Contact</h1>
             <br />
-            <h3>I like meeting new people.</h3>
+            <h3>I enjoy doing interesting work for interesting people.</h3>
             <br />
             <ul>
               <li>
@@ -44,6 +44,13 @@ export default function Contact() {
                   rel="noopener"
                 >
                   @johnisthemusic
+                </a>
+              </li>
+              <br />
+              <li>
+                <strong>github </strong>
+                <a href="https://github.com/pravda23" target="_blank">
+                  pravda23
                 </a>
               </li>
               <br />

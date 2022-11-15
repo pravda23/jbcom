@@ -11,7 +11,10 @@ export default function Music() {
             <h1>Music</h1>
             <br />
 
-            <h3>Creative Commons soundtracks and comedic themes</h3>
+            <h3>
+              Creative Commons intro music, backing music, soundtracks, comedy
+              songwriting and themes
+            </h3>
             <br />
             <ul>
               <li>
@@ -20,6 +23,14 @@ export default function Music() {
                   target="_blank"
                 >
                   YouTube
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://freemusicarchive.org/music/John_Bartmann/"
+                  target="_blank"
+                >
+                  Free Music Archive
                 </a>
               </li>
               <li>
@@ -53,14 +64,6 @@ export default function Music() {
               </li>
               <li>
                 <a
-                  href="https://freemusicarchive.org/music/John_Bartmann/"
-                  target="_blank"
-                >
-                  Free Music Archive
-                </a>
-              </li>
-              <li>
-                <a
                   href="https://soundcloud.com/johnbartmannmusic/"
                   target="_blank"
                 >
@@ -77,7 +80,7 @@ export default function Music() {
             </a>
             <br />
             <br />
-            <h3>Other music projects</h3>
+            <h3>Commercially available music for licensing</h3>
             <br />
             <ul>
               <li>
@@ -93,9 +96,27 @@ export default function Music() {
                   DNA Muzik (Munich) - library music
                 </a>
               </li>
+            </ul>
+            <br />
+            <h3>Bands I play in</h3>
+            <br />
+            <ul>
+              <li>
+                <a
+                  href="https://www.capetownswing.co.za/the-pebble-shakers/"
+                  target="_blank"
+                >
+                  The Pebble Shakers - South African jazz band
+                </a>
+              </li>
               <li>
                 <a href="https://thegreatgatsbys.com" target="_blank">
                   The Great Gatsbys - cheesy wedding band
+                </a>
+              </li>
+              <li>
+                <a href="https://dukesofnote.com/" target="_blank">
+                  The Dukes of Note - carnival rock band
                 </a>
               </li>
             </ul>

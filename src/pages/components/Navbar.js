@@ -16,9 +16,7 @@ export default function Navbar() {
           <a href="/writing">WRITING</a>
         </li>
         <li>
-          <a href="/coding" target="_blank">
-            FRONT-END DEV
-          </a>
+          <a href="/coding">FRONT-END DEV</a>
         </li>
         <li>
           <a href="/podcasting">PODCASTING</a>

@@ -7,16 +7,23 @@ export default function Coding() {
       <div className="wrapper">
         <main>
           <div className="main">
-            <h1>Front-end web development</h1>
+            <h1>Web development</h1>
             <br />
-            <h3>
-              A creative approach to web products. Here's my{" "}
-              <a href="https://github.com/pravda23" target="_blank">
-                GitHub.
-              </a>
-            </h3>
+            <h3>Creative browser experiences.</h3>
             <br />
             <ul>
+              <li>
+                <a
+                  href="https://adorable-sherbet-f9ff21.netlify.app/"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <strong>Needledrop</strong>
+                </a>{" "}
+                is an audio player SPA which allows for continuous playback
+                while browsing.
+              </li>
+              <br />
               <li>
                 <a
                   href="https://sprightly-dragon-a02641.netlify.app/"
@@ -25,10 +32,18 @@ export default function Coding() {
                 >
                   <strong>Whether...?</strong>
                 </a>{" "}
-                is a simple React weather forecast app. Fast and attractive.
+                is a simple weather forecast app (ReactJS).
               </li>
               <br />
               <li>
+                <a
+                  href="https://houtbaysound.com/"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <strong>Hout Bay Sound</strong>
+                </a>{" "}
+                and{" "}
                 <a
                   href="https://elegant-chebakia-666a3b.netlify.app/"
                   target="_blank"
@@ -36,57 +51,20 @@ export default function Coding() {
                 >
                   <strong>TeachTech</strong>
                 </a>{" "}
-                is a demo corporate brochure site built with good ol' vanilla
-                JS.
+                are simple corporate brochure sites (Javascript, HTML, CSS).
               </li>
+
               <br />
               <li>
-                I call{" "}
-                <strong>
-                  <a
-                    href="https://radiant-custard-208af9.netlify.app/"
-                    target="_blank"
-                  >
-                    this life coaching demo site
-                  </a>
-                </strong>{" "}
-                a 'transparent curtain' design to prioritize any visual assets.
-              </li>
-              <br />
-              <li>
-                Play this super-basic version of{" "}
+                My first ever web app:{" "}
                 <strong>
                   <a
                     href="https://animated-mooncake-37e518.netlify.app/"
                     target="_blank"
                   >
-                    Rock Paper Scissors!
-                  </a>
-                </strong>{" "}
-              </li>
-              <br />
-
-              <li>
-                Here's my first-ever project, the obligatory{" "}
-                <strong>
-                  <a
-                    href="https://musical-dasik-1b22cc.netlify.app/"
-                    target="_blank"
-                  >
-                    To-Do List
+                    Rock Paper Scissors.
                   </a>
                 </strong>
-                .
-              </li>
-              <br />
-              <li>
-                And, of course,{" "}
-                <strong>
-                  <a href="https://johnbartmann.com" target="_blank">
-                    JohnBartmann.com
-                  </a>
-                </strong>
-                , built with Gatsby.
               </li>
               <br />
             </ul>

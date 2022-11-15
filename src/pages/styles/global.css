@@ -1,11 +1,8 @@
 :root {
-  --color-light: #cecece;
-  --color-dark: #235288;
-  --color-black: #161616;
-  --rps-color1: #0b1d31;
-  --rps-color2: #33c474;
-  --rps-color3: #0b1d31;
-  --rps-color4: darkgray;
+  --white: #cecece;
+  --color-light: #007acc;
+  --color-dark: #02568f;
+  --black: #272727;
 }
 
 * {
@@ -16,24 +13,39 @@
   letter-spacing: 0.1vw;
 }
 
+html {
+  min-height: 100%;
+}
+
 /* body */
 
 body {
-  background-color: var(--color-black);
+  background-color: var(--black);
   line-height: clamp(20px, 5vh, 30px);
 }
 
 a {
-  color: var(--color-light);
+  color: var(--white);
   text-decoration-line: underline;
   text-decoration-style: dotted;
   text-underline-offset: 0.4rem;
 }
 
+h1 {
+  font-size: 6rem;
+}
+
 .main {
   margin: 40px;
-  color: var(--color-light);
-  width: 80%;
+
+  min-height: 70vh;
+  /* width: 80%; */
+}
+
+.home-wrapper > h1,
+.home-wrapper > ul > h3 {
+  /* color: blue; */
+  text-shadow: 2px 2px 5px var(--black);
 }
 
 .title,
@@ -45,13 +57,42 @@ a {
   text-decoration: none;
 }
 
-.wrapper {
-  position: relative;
+.home-wrapper {
+  position: absolute;
+  color: var(--white);
+  top: 50%;
+  margin-left: 10%;
   width: 100%;
-  padding: 0.5rem;
-  height: auto;
-  margin-bottom: clamp(10vh, 40px, 15vh);
-  /* overflow: hidden; */
+  margin: 0;
+  z-index: 10;
+  padding: 1rem;
+}
+.wrapper {
+  padding: 1rem;
+  /* position: absolute; */
+  color: var(--white);
+  top: 50%;
+  margin-left: 10%;
+  width: 100%;
+  margin: 0;
+  z-index: 10;
+  border-top: 1px solid var(--white);
+}
+
+.background-img {
+  object-fit: cover;
+  /* background-image: url(""); */
+  border-top: 1px solid var(--white);
+  border-bottom: 1px solid var(--white);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  /* height: auto; */
+  /* background-attachment: fixed; */
+  background-size: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  z-index: 0;
 }
 
 .wrapperHide {
@@ -75,11 +116,12 @@ ul {
 /* header */
 
 .topHeader {
+  /* position: absolute; */
   display: flex;
   justify-content: right;
   align-items: center;
   height: clamp(2rem, 10vh, 8rem);
-  background-color: var(--color-dark);
+  background: linear-gradient(90deg, var(--color-dark), var(--color-light));
   padding: 3vh;
   line-height: 3vh;
   z-index: -52;
@@ -88,7 +130,7 @@ ul {
 .logo {
   position: absolute;
   left: 10px;
-  color: var(--color-light);
+  color: var(--white);
 }
 /* nav */
 
@@ -101,19 +143,18 @@ nav {
   position: absolute;
   top: clamp(2rem, 10vh, 8rem);
   left: 0rem;
-  height: 80vh;
+  height: 90vh;
   width: 100%;
-  background-color: var(--color-dark);
+  background: linear-gradient(90deg, var(--color-dark), var(--color-light));
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: space-around;
-  color: var(--color-light);
+  color: var(--white);
   padding: 1rem;
   list-style: none;
   z-index: 50;
   overflow: hidden;
-  /* opacity: 0.5; */
 }
 
 .navLinksSide a {
@@ -122,84 +163,23 @@ nav {
 
 .burger {
   cursor: pointer;
-  color: var(--color-light);
+  font-size: 1.8rem;
+  color: var(--white);
   z-index: 51;
 }
-
-/* .nav-active {
-  transform: translateX(0%);
-  margin-top: 4vh;
-  z-index: 10;
-}
-
-.navAnim {
-  animation-name: navLinkFade;
-  animation-duration: 1s;
-} */
 
 /* footer */
 
 .footer {
   position: relative;
-  bottom: 0;
-  width: 100%;
-  height: clamp(10vh, 40px, 15vh);
-  margin-top: auto;
-  margin-bottom: 0;
-  color: var(--color-light);
-  background-color: var(--color-dark);
-  padding: 2rem 1rem 2rem 2rem;
-  text-align: right;
-}
-
-/* media queries */
-/* 
-@media screen and (max-width: 760px) {
-  body {
-    overflow-x: hidden;
-  }
-
-  .nav-links {
-    background-color: var(--color-dark);
-    position: absolute;
-    right: 0px;
-    height: 92vh;
-    top: 8vh;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    transform: translateX(100%);
-    transition: transform 0.1s ease-in;
-  }
-  .nav-links li {
-    opacity: 100%;
-  }
-  .burger {
-    display: block;
-    cursor: pointer;
-  }
-} */
-
-/* animations */
-
-/* @keyframes navLinkFade {
-  from {
-    opacity: 0;
-    transform: translateX(50px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0px);
-  }
-} */
-
-/* rps flashing */
-@keyframes flashing {
-  0% {
-    background-color: var(--rps-color2);
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-  }
+  /* width: 100%; */
+  height: 2rem;
+  /* margin-top: auto; */
+  /* margin-bottom: 0; */
+  color: var(--white);
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
 }

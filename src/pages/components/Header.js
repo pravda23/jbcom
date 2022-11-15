@@ -8,7 +8,7 @@ export default function Header() {
       <div className="topHeader">
         <div className="logo">
           <a href="/">
-            <h4>JOHN BARTMANN</h4>
+            <h3>JOHN BARTMANN</h3>
           </a>
           <a href="/">
             <h5>CONTENT CREATIVE // WEB DEV</h5>
